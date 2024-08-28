@@ -1,0 +1,35 @@
+<div class="container bg- mt p-5 rouded shadow" style="width: 45%;">
+    <div class="row aling-items-stretch">
+        <div class="col">
+            <h2 class="fw-bold text-center py-5">Registro:</h2>
+        <form action="#">
+            <div class="mb-4">
+                <label for="name"  class="form-label">Nombre completo:</label>
+                <input type="text" [formControl]="nombreC" class="form-control" name="name">
+            </div>
+            <div class="mb-4">
+                <label for="email"  class="form-label">Correo electronico:</label>
+                <input type="email" [formControl]="correoC" class="form-control" name="email">
+            </div>
+            <div class="mb-4">
+                <label for="password"  class="form-label">Crear contraseña:</label>
+                <input type="password" [formControl]="contrasenaC" class="form-control" name="password">
+            </div>
+            <div class="mb-4">
+                <label for="password"  class="form-label">Confirmar contraseña:</label>
+                <input type="password" [formControl]="confirmarContraC" class="form-control" name="password">
+                <p></p>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class=" btn btn-primary">Registrate</button>
+            </div>
+            <div class="d-grid">
+                <span>Ya tienes una cuenta? <a routerLink="/login">Inicia sesion</a></span>
+            </div>
+            <div>
+                <span><a href="#">Recuperar contraseña</a></span>
+            </div>
+        </form>
+    </div>
+</div>
+</div>

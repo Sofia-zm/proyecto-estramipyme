@@ -1,0 +1,63 @@
+main{
+    margin: 50px;
+}
+.contenido{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ; 
+}
+
+.historia{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    grid-column: 1;
+    grid-row: 2 ;
+}
+.maria{
+    margin-top: 20%;
+    margin-left: 15%;
+    float: left;
+    grid-column: 2;
+    grid-row: 2;
+}
+.maria img{
+    width: 90%;
+}
+
+.manual{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    grid-column: 2;
+    grid-row: 3;
+}
+.img-proposito{
+    margin-top: 20%;
+    margin-right: 15%;
+    float: left;
+    grid-column: 1;
+    grid-row: 3;
+}
+.img-proposito img{
+    width: 90%;
+}
+
+.confianza{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    grid-column: 1;
+    grid-row: 4;
+}
+.img-confianza{
+    margin-top: 20%;
+    margin-left: 15%;
+    float: right;
+    grid-column: 2;
+    grid-row: 4;
+
+}
+.img-confianza img{
+    width: 100%;
+}

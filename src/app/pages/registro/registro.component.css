@@ -1,0 +1,25 @@
+
+.navegacion{
+    display: flex;
+    border-bottom: solid black 2px;
+}
+.navegacion_menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+}
+.navegacion img{
+    width: 150px;
+}
+.navegacion_menu li a{
+    text-decoration: none;
+    color: black;
+}
+.navegacion_menu li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+.active{
+    border-bottom: 2px solid; color: #fff;
+}

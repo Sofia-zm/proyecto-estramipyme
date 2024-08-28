@@ -1,0 +1,29 @@
+<div class="container bg- mt-5 p-5 rounded shadow" style="width: 45%;">
+    <div class="row aling-items-stretch">
+        <div class="col">
+        <h2 class="fw-bold text-center py-5">Iniciar sesion:</h2>
+        <form action="#">
+            <div class="mb-4">
+                <label for="email" class="form-label">Correo electronico:</label>
+                <input type="email" [formControl]="correoC" class="form-control" name="email">
+            </div>
+
+            <div class="mb-4">
+                <label for="password" class="form-label">Contraseña:</label>
+                <input type="password" [formControl]="contrasenaC" class="form-control" name="password">
+            </div>
+            <div class="mb-4 form-check">
+                <input type="checkbox" name="connected" class="form-check-input">
+                <label for="connected" class="form-check-label">Mantenerme conectado</label>
+            </div>
+            <div class="d-grid">
+                <input type="button" (click)="inicioUsuario()" value="Entrar">
+            </div>
+            <div class="my-3">
+                <span>No tienes cuenta? <a routerLink="/registro">Registrate</a></span> <br>
+                <span> <a href="#">Recuperar contraseña</a></span>
+            </div>
+        </form>
+        <div>
+    </div>
+</div>

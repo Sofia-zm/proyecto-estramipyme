@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+.contenedor{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+.titulo h1{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.test_jaime{
+    margin-left: 20px;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: justify;
+}
+.test_jaime h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.test_jaime h2{
+    text-align: center;
+}
+.test_jaime p{
+    margin-top: 40px;
+}
+.img_jaime{
+    margin-top: 40px;
+    margin-left: 60px;
+    float: left;
+    grid-column: 2;
+    grid-row: 1;
+}
+.img_jaime img{
+    width: 400px;
+}
+
+.test_fundacion{
+    margin-left: 20px;
+    text-align: justify;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.test_fundacion h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.test_fundacion p{
+    margin-top: 40px;
+}
+.img_fundacion{
+    margin-top: 80px;
+    margin-left: 60px;
+    float: left;
+    grid-column: 2;
+    grid-row: 2;
+}
+.img_fundacion img{
+    width: 500px;
+    margin-bottom: 50px;
+}
+.tienda-juan{
+    margin-left: 20px;
+    text-align: justify;
+    grid-column: 1;
+    grid-row: 3; 
+}
+.tienda-juan h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tienda-juan p{
+    margin-top: 40px;
+}
+.img_tienda_juan{
+    margin-top: 80px;
+    margin-left: 60px;
+    float: left;
+    grid-column: 2;
+    grid-row: 3;
+}
+.img_tienda_juan img{
+    width: 500px;
+    margin-bottom: 50px;
+}

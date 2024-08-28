@@ -1,0 +1,26 @@
+<hr>
+<header>
+    <button id=" abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+    <img class="logo" src="../assets/logo_azul_eafit.png" alt="Logo">
+    <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+        <ul class="nav-list">
+            <li><a routerLink="/inicio">INICIO</a></li>
+            <li><a routerLink="/nosotros">NOSOTROS</a></li>
+            <li><a routerLink="/testimonios">TESTIMONIOS</a></li>
+            <li><a routerLink="/contacto">CONTACTO</a></li>
+            <div class="dropdown">
+                <button class="dropdown-toggle" id="userIcon">  <img src="../assets/usuario.png" alt="" class="icon-user">
+                </button>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <a *ngIf="sesion==true" href="#profile">Perfil</a>
+                    <a *ngIf="sesion==false" routerLink="/login">Iniciar sesión</a>
+                    <a *ngIf="sesion==false" routerLink="/registro">Registro</a>
+                    <a *ngIf="sesion==true" href="#logout" (click)="cerrarS()">Cerrar sesión</a>
+                   
+                </div>
+            </div>
+        </ul>
+    </nav>
+</header>
+<hr>
